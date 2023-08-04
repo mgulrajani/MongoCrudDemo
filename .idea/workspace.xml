@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5153b211-13cc-4980-94e3-20734e38db13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/training/dbs/MongoCRUD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/training/clientapps/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/training/utils/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/training/specs/CalcSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/training/specs/CalculatorSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/training/specs/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/training/specs/MongoCrudSpec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/training/dbs/MongoCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/training/dbs/MongoCRUD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,23 +53,92 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="MongoCRUD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.training.dbs.MongoCRUD" />
+  <component name="RunManager" selected="JUnit.CalculatorTest.testingAdd">
+    <configuration name="CalcSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MavenDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.training.dbs.*" />
+          <option name="PATTERN" value="com.training.specs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.training.specs" />
+      <option name="MAIN_CLASS_NAME" value="com.training.specs.CalcSpec" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalcSpec.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MavenDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.training.specs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.training.specs" />
+      <option name="MAIN_CLASS_NAME" value="com.training.specs.CalcSpec" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalcSpec.testSub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MavenDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.training.specs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.training.specs" />
+      <option name="MAIN_CLASS_NAME" value="com.training.specs.CalcSpec" />
+      <option name="METHOD_NAME" value="testSub" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.testingAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MavenDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.training.specs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.training.specs" />
+      <option name="MAIN_CLASS_NAME" value="com.training.specs.CalculatorTest" />
+      <option name="METHOD_NAME" value="testingAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MongoCrudSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MavenDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.training.specs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.training.specs" />
+      <option name="MAIN_CLASS_NAME" value="com.training.specs.MongoCrudSpec" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MongoCRUD" />
+        <item itemvalue="JUnit.CalculatorTest.testingAdd" />
+        <item itemvalue="JUnit.MongoCrudSpec" />
+        <item itemvalue="JUnit.CalcSpec" />
+        <item itemvalue="JUnit.CalcSpec.testSub" />
+        <item itemvalue="JUnit.CalcSpec.testAdd" />
       </list>
     </recent_temporary>
   </component>
@@ -82,7 +151,30 @@
       <option name="presentableId" value="Default" />
       <updated>1690970442801</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit for mongocrud">
+      <created>1691039968772</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691039968773</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit for mongocrud" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit for mongocrud" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

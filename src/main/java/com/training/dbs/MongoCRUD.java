@@ -48,7 +48,7 @@ public class MongoCRUD {
 
     }
 
-    private static void displayAllDocuments() {
+    public static void displayAllDocuments() {
 
         //we want to retreive all documents
 
@@ -59,7 +59,7 @@ public class MongoCRUD {
 
     }
 
-    private static void deleteDocument() {
+    public static void deleteDocument() {
 
         Document docToBeDeleted = new Document();
         docToBeDeleted.put("artist","AR Rahman");
@@ -68,6 +68,13 @@ public class MongoCRUD {
 
     }
 
+
+    public static void deleteDocument(Document d) {
+
+          collection.deleteOne(d);
+        System.out.println("doc deleted");
+
+    }
     private static void updateDocument() {
         // first is the filter /query , what you want to modify
          Document searchDoc =
@@ -87,14 +94,14 @@ public class MongoCRUD {
 
     }
 
-    private static void connectMongo() {
+    public static void connectMongo() {
 
         mongoClient = MongoClients.create("mongodb://localhost:27017");
         database =  mongoClient.getDatabase("music");
         collection =  database.getCollection("mData");
     }
 
-    private static void insertDocument(){
+    public  static void insertDocument(){
 
          Document doc = new Document();
 
@@ -106,6 +113,10 @@ public class MongoCRUD {
 
          collection.insertOne(doc);
 
+    }
+
+    public static void insertDocument(Document d){
+         collection.insertOne(d);
     }
 
 
